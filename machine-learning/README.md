@@ -1,52 +1,46 @@
-# Machine Learning Labs
+# Machine Learning
 
-A structured collection of Jupyter Notebooks implementing fundamental Machine Learning algorithms, statistical analyses, and data preprocessing techniques. This repository serves as a hands-on reference for key ML models implemented from scratch and using standard scientific libraries.
+A collection of Jupyter Notebooks covering core Machine Learning algorithms and data analysis techniques, from preprocessing and exploratory analysis to supervised and unsupervised learning.
 
 ---
 
-## Lab Directory
+## Lab Index
 
-| Lab No. | Notebook File | Problem Statement / Algorithm Implemented |
+| Lab No. | Notebook | Algorithm / Topic |
 | :---: | :--- | :--- |
-| 01 | [`01_lab_1.ipynb`](labs/01_lab_1.ipynb) | **Data Preprocessing & Outlier Detection:** Analyzing feature distributions and detecting outliers using the Interquartile Range (IQR) method on the California Housing dataset. |
-| 02 | [`02_lab_2.ipynb`](labs/02_lab_2.ipynb) | **Exploratory Data Analysis (EDA):** Visualizing summary statistics, correlation matrix heatmaps, feature histograms, and pairplots for the California Housing dataset. |
-| 03 | [`03_lab_3.ipynb`](labs/03_lab_3.ipynb) | **Dimensionality Reduction (PCA & SVD):** Principal Component Analysis and Singular Value Decomposition on the Iris dataset with 3D projection and covariance analysis. |
-| 04 | [`04_lab_4.ipynb`](labs/04_lab_4.ipynb) | **Find-S Concept Learning:** Implementing the Find-S concept learning algorithm from scratch to find the most specific hypothesis for a set of training instances. |
-| 05 | [`05_lab_5.ipynb`](labs/05_lab_5.ipynb) | **k-Nearest Neighbors (k-NN) Classification:** Implementing and tuning scikit-learn's k-NN classifier on a generated dataset, demonstrating the effect of different k values on model accuracy. |
-| 06 | [`06_lab_6a.ipynb`](labs/06_lab_6a.ipynb) | **Regression Comparison:** Implementing and comparing Linear Regression, Locally Weighted Regression (LWR) using a Gaussian kernel, and Polynomial Regression. |
-| 07 | [`07_lab_7a.ipynb`](labs/07_lab_7a.ipynb) | **Multiple Linear Regression:** Training and evaluating a multiple linear regression model (MSE, RMSE, R² metrics) on the Boston Housing dataset. |
-| 08 | [`08_lab_7b.ipynb`](labs/08_lab_7b.ipynb) | **Polynomial Regression:** Evaluation and visualization of polynomial regression (predicting MPG from horsepower) on the Auto MPG dataset. |
-| 09 | [`09_lab_8.ipynb`](labs/09_lab_8.ipynb) | **Decision Tree Classification (ID3/CART):** Building and evaluating a decision tree classifier with entropy and information gain criteria on the Breast Cancer dataset. |
-| 10 | [`10_lab_10.ipynb`](labs/10_lab_10.ipynb) | **k-Means Clustering & PCA:** Finding the optimal number of clusters using the Elbow Method and Silhouette Analysis on the Breast Cancer dataset reduced with PCA. |
+| 01 | [`01_lab_1.ipynb`](01_lab_1.ipynb) | Data Preprocessing & Outlier Detection using IQR on the California Housing dataset. |
+| 02 | [`02_lab_2.ipynb`](02_lab_2.ipynb) | Exploratory Data Analysis — correlation heatmaps, histograms, and pairplots. |
+| 03 | [`03_lab_3.ipynb`](03_lab_3.ipynb) | Dimensionality Reduction using PCA and SVD on the Iris dataset. |
+| 04 | [`04_lab_4.ipynb`](04_lab_4.ipynb) | Find-S Concept Learning Algorithm — most specific hypothesis from training instances. |
+| 05 | [`05_lab_5.ipynb`](05_lab_5.ipynb) | k-Nearest Neighbors (k-NN) Classification — effect of varying k on accuracy. |
+| 06 | [`06_lab_6a.ipynb`](06_lab_6a.ipynb) | Regression comparison — Linear, Locally Weighted (Gaussian kernel), and Polynomial. |
+| 07 | [`07_lab_7a.ipynb`](07_lab_7a.ipynb) | Multiple Linear Regression on the Boston Housing dataset (MSE, RMSE, R²). |
+| 08 | [`08_lab_7b.ipynb`](08_lab_7b.ipynb) | Polynomial Regression — predicting MPG from horsepower on the Auto MPG dataset. |
+| 09 | [`09_lab_8.ipynb`](09_lab_8.ipynb) | Decision Tree Classifier (ID3/CART) with entropy criteria on the Breast Cancer dataset. |
+| 10 | [`10_lab_10.ipynb`](10_lab_10.ipynb) | k-Means Clustering with Elbow Method and PCA on the Breast Cancer dataset. |
 
 ---
 
-## Setup & Usage
+## Datasets
 
-### Running Locally
+All required datasets are available in the [`datasets/`](datasets/) folder. Upload the relevant CSV to your environment before running a notebook.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Sarvan-12/machine-learning-labs.git
-   cd machine-learning-labs
-   ```
+| Dataset | Used In |
+| :--- | :--- |
+| `housing_exp1_exp2.csv` | Lab 01, Lab 02 |
+| `IRIS_exp3.csv` | Lab 03 |
+| `Find_S_training_data_exp4.csv` | Lab 04 |
+| `linear_dataset.csv`, `lwr_dataset.csv`, `polynomial_dataset.csv` | Lab 06 |
+| `Boston housing dataset.csv` | Lab 07 |
+| `Breast cancer.csv` | Lab 09, Lab 10 |
 
-2. Install the required packages:
-   ```bash
-   pip install jupyter numpy pandas scikit-learn matplotlib seaborn scipy
-   ```
+---
 
-3. Start the Jupyter notebook server:
-   ```bash
-   jupyter notebook
-   ```
+## Running on Google Colab
 
-### Running on Google Colab
-
-1. Go to [Google Colab](https://colab.research.google.com/).
-2. Select the **GitHub** tab and enter `Sarvan-12/machine-learning-labs`.
-3. Open the desired notebook from the `labs/` folder.
-4. Upload the corresponding dataset from the `datasets/` folder if the notebook requires local data.
+1. Open [Google Colab](https://colab.research.google.com/) and upload the notebook.
+2. Upload the corresponding dataset from the `datasets/` folder using the Colab file panel.
+3. Run all cells.
 
 ---
 
