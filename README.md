@@ -51,3 +51,13 @@ Here are some advanced implementations related to these labs:
 
 * **[KNN Adaptive Algorithm](https://github.com/Sarvan-12/knn-adaptive-algorithm)**: An optimization of the k-NN classification algorithm using local data density to dynamically select k and distance metrics.
 * **[Food Calorie Estimator](https://github.com/Sarvan-12/food-calorie-estimator)**: A deep learning web application that classifies food images and estimates their calorie counts.
+
+---
+
+## Connect With Me
+
+If you find this repository helpful or want to discuss AI/ML development, feel free to reach out!
+
+⭐ **Don't forget to star this repository if you found it useful!**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarvan12/)
