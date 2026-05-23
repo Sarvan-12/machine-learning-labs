@@ -35,13 +35,44 @@ Covers neural network architectures, sequence modeling, computer vision, and env
 
 ## Getting Started
 
-All laboratories are implemented as Jupyter Notebooks (`.ipynb`) and are pre-configured to run directly on **Google Colab**.
+All laboratories are implemented as Jupyter Notebooks (`.ipynb`). You can run them either directly in your browser using Google Colab, or locally on your machine.
 
-1. Navigate to the folder corresponding to the lab you wish to run.
-2. Click the notebook file (`.ipynb`) to view the code.
-3. Open the notebook in **Google Colab**.
-4. Upload any required dataset (available in the respective `datasets/` folders) to the Colab environment.
-5. Run the cells sequentially.
+### Option 1: Running on Google Colab (Recommended)
+
+1. Open [Google Colab](https://colab.research.google.com/).
+2. Select the **GitHub** tab, type `Sarvan-12/machine-learning-labs`, and select this repository.
+3. Open the desired notebook file.
+4. For notebooks in the `machine-learning/` directory, upload any corresponding datasets from the respective `datasets/` folder using the Colab file explorer.
+5. For deep learning notebooks, ensure GPU acceleration is enabled if training models (Edit > Notebook Settings > Hardware accelerator > T4 GPU).
+
+### Option 2: Running Locally
+
+If you prefer to run the notebooks locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sarvan-12/machine-learning-labs.git
+   cd machine-learning-labs
+   ```
+
+2. **Set up a virtual environment:**
+   ```bash
+   python -m venv venv
+   # On Windows:
+   .\venv\Scripts\activate
+   # On macOS/Linux:
+   source venv/bin/activate
+   ```
+
+3. **Install the required packages:**
+   ```bash
+   pip install jupyter numpy pandas scikit-learn tensorflow torch torchvision nltk gensim matplotlib seaborn scipy
+   ```
+
+4. **Start the Jupyter notebook server:**
+   ```bash
+   jupyter notebook
+   ```
 
 ---
 
