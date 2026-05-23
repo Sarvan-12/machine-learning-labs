@@ -1,12 +1,12 @@
-# Statistical Machine Learning Labs
+# Statistical Machine Learning
 
-A collection of Jupyter Notebooks for Statistical Machine Learning labs.
+A collection of Jupyter Notebooks covering statistical methods, hypothesis testing, and regression analysis for Machine Learning.
 
 ---
 
 ## Lab Index
 
-| Lab No. | Notebook File | Topic / Description |
+| Lab No. | Notebook | Algorithm / Topic |
 | :---: | :--- | :--- |
 | 01 | [`01_lab_1.ipynb`](01_lab_1.ipynb) | Calculating Percentiles and Interquartile Range (IQR) on house prices. |
 | 02 | [`02_lab_2.ipynb`](02_lab_2.ipynb) | Crosstabs and Visualizations (Grouped & Stacked Bar Charts). |
@@ -19,3 +19,10 @@ A collection of Jupyter Notebooks for Statistical Machine Learning labs.
 | 09 | [`09_lab_9.ipynb`](09_lab_9.ipynb) | Spline Regression with knots. |
 | 10 | [`10_lab_10.ipynb`](10_lab_10.ipynb) | Poisson Regression (expected visits with/without condition). |
 | 11 | [`11_lab_11.ipynb`](11_lab_11.ipynb) | One-Tailed T-test (comparing new vs. old recipe calories). |
+
+---
+
+## Running on Google Colab
+
+1. Open [Google Colab](https://colab.research.google.com/) and upload the desired notebook.
+2. Run all cells to execute the statistical tests and generate visualizations.
