@@ -19,6 +19,7 @@ A collection of Jupyter Notebooks covering statistical methods, hypothesis testi
 | 09 | [`09_lab_9.ipynb`](09_lab_9.ipynb) | Spline Regression with knots. |
 | 10 | [`10_lab_10.ipynb`](10_lab_10.ipynb) | Poisson Regression (expected visits with/without condition). |
 | 11 | [`11_lab_11.ipynb`](11_lab_11.ipynb) | One-Tailed T-test (comparing new vs. old recipe calories). |
+| 12 | [`12_sml_assignment.ipynb`](12_sml_assignment.ipynb) | Logistic Regression (GLM Binomial) & Odds Ratios Interpretation. |
 
 ---
 
